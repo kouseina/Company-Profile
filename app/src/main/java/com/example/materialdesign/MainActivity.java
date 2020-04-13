@@ -104,6 +104,7 @@ public class MainActivity extends AppCompatActivity
                     .beginTransaction()
                     .replace(R.id.layout_for_fragment, new HomeFragment())
                     .commit();
+            getSupportActionBar().setTitle("Company Profile App");
             // Handle the camera action
         } else if (id == R.id.nav_gallery) {
 
@@ -111,6 +112,7 @@ public class MainActivity extends AppCompatActivity
             getSupportFragmentManager().beginTransaction()
                     .replace(R.id.layout_for_fragment, new GalleryFragment())
                     .commit();
+            getSupportActionBar().setTitle("Gallery");
         } else if (id == R.id.nav_slideshow) {
 
         } else if (id == R.id.nav_web) {
