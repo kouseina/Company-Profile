@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity
                     .replace(R.id.layout_for_fragment, new GalleryFragment())
                     .commit();
             getSupportActionBar().setTitle("Gallery");
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_services) {
 
         } else if (id == R.id.nav_web) {
             Intent pindah = new Intent(MainActivity.this, WebActivity.class);
